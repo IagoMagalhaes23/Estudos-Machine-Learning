@@ -16,6 +16,22 @@ Esse curso é sobre redes neurais recorrentes, que são o tipo de rede neural ad
 - Motivação para o uso de Redes Neurais Recorrentes
     As limitações do MLP levaram à proposição de uma nova arquitetura, a RNN, capaz de guardar uma memória interna de acontecimentos passados, levando-os em consideração ao processar novos eventos.
 
+### Aula 02
+- O fluxo de dados em uma célula recorrente.
+    A célula recorrente básica possui muitas similaridades com um Multi-Layer Perceptron, com a vantagem extra de uma memória interna que permite acumular contexto dos elementos de uma sequência em um processamento iterativo.
+
+- RNNCell no PyTorch
+    O pacote nn de redes neurais do PyTorch fornece uma célula recorrente simples, que nos permite implementar explicitamente o fluxo iterativo de uma sequência.
+
+- A memória interna (hidden state)
+    A memória interna de uma RNN básica nada mais é do que um vetor do mesmo tamanho que a quantidade de neurônios da camada. Ela recebe esse nome por ser retroalimentada para a camada, acumulando contexto da sequência.
+
+- Construção de Vocabulário e Representação One Hot
+    No contexto de processamento de texto, aprendemos a representar strings como tensores, modelando uma sequência de caracteres a partir de um vocabulário pré-definido.
+
+- Classificação de nomes com uma Char-RNN
+    Nossa primeira prática! Aqui você viu como usar a RNNCell processando nomes próprios como uma sequência de caracteres para predizer a sua nacionalidade.
+
 ## Referências
 - [Redes Neurais Recorrentes:
 Deep Learning com Pytorch](https://www.alura.com.br/curso-online-rnn-redes-neurais-recorrentes-deep-learning-pytorch)
