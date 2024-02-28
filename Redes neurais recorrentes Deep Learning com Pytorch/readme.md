@@ -32,7 +32,23 @@ Esse curso é sobre redes neurais recorrentes, que são o tipo de rede neural ad
 - Classificação de nomes com uma Char-RNN
     Nossa primeira prática! Aqui você viu como usar a RNNCell processando nomes próprios como uma sequência de caracteres para predizer a sua nacionalidade.
 
+### Aula 03
+- Taxonomia dos problemas
+    Dependendo dos dados utilizados e inferências desejadas, a sua arquitetura recorrente pode tomar as seguintes formas: Many-to-One, One-to-Many, Many-to-Many e Many-to-Many sincronizado. Por exemplo, a análise de sentimentos é um problema Many-to-One.
+
+- Vanishing Gradient
+    O problema do gradiente que desaparece (ou explode) é especialmente importante para modelos recorrentes, se considerarmos que sequências muito longas produzem um processamento “profundo” no tempo.
+
+- O uso de Gates
+    Os portões (gates) são parte essencial dos métodos que solucionam o problema do vanishing gradient. Aqui você viu como eles se aplicam a uma feature passando pela célula recorrente.
+
+- LSTM e GRU
+    Também chamadas de células recorrentes avançadas, a LSTM e a GRU são as principais células capazes de processar longas sequências, mitigando o problema do vanishing gradient.
+
 ## Referências
 - [Redes Neurais Recorrentes:
 Deep Learning com Pytorch](https://www.alura.com.br/curso-online-rnn-redes-neurais-recorrentes-deep-learning-pytorch)
 - [Notebook 01](https://caelum-online-public.s3.amazonaws.com/1892-redes-neurais-recorrentes-deep-learning-pytorch/02/Classifica%C3%A7%C3%A3o%20de%20Sequ%C3%AAncias.ipynb)
+- [Versão animada do fluxo de dados nas unidades recorrentes](https://towardsdatascience.com/animated-rnn-lstm-and-gru-ef124d06cf45)
+- [função dos gates da LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Conheça a principal referência quando se fala em RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
