@@ -61,6 +61,22 @@ Esse curso é sobre redes neurais recorrentes, que são o tipo de rede neural ad
 - RNN Bidirecional
     Conhecemos a praticidade na construção de uma rede recorrente bidirecional através do parâmetro bidirectional. Vimos também o impacto real dessa mudança na arquitetura, bem como seus benefícios em aplicações reais.
 
+### Aula 05
+- Análise de sentimentos
+    Na nossa segunda prática implementamos uma solução para o problema de análise de sentimentos no dataset IMDB de reviews de filmes.
+
+- Torchtext
+    Você conheceu um dos muitos pacotes construídos para o PyTorch, oferecendo poder adicional ao framework. O Torchtext provê uma série de ferramentas para carregamento e manipulação de texto.
+
+- Camada de Embedding
+    Aprendemos um pouco sobre a representação de palavras em um espaço semântico que codifica informação de contexto das palavras de um vocabulário. Utilizamos o Global Vectors, um modelo pré-treinado de representação.
+
+- BucketIterator
+    Também sobre o Torchtext, conhecemos uma das maneiras de preparar os dados para alimentar o empacotamento de sequências do PyTorch.
+
+- Lidando com sequências de comprimento variável
+    Você conheceu o artifício de empacotamento de sequências do PyTorch, que permite alimentar um batch de sequências de comprimento variável para a rede neural, permitindo um treinamento eficiente do modelo.
+
 ## Referências
 - [Redes Neurais Recorrentes:
 Deep Learning com Pytorch](https://www.alura.com.br/curso-online-rnn-redes-neurais-recorrentes-deep-learning-pytorch)
