@@ -45,6 +45,22 @@ Esse curso é sobre redes neurais recorrentes, que são o tipo de rede neural ad
 - LSTM e GRU
     Também chamadas de células recorrentes avançadas, a LSTM e a GRU são as principais células capazes de processar longas sequências, mitigando o problema do vanishing gradient.
 
+### Aula 04
+- RNN no PyTorch
+    Conhecemos as células RNN, GRU e LSTM no PyTorch, dispensando a implementação de um loop explícito ao processar sequências, como faríamos com as camadas RNNCell, GRUCell e LSTMCell.
+
+- Dimensionalidade dos Dados
+    Aprendemos a importância do parâmetro batch_first na RNN, diretamente relacionado com a organização do tensor de entrada.
+
+- Implementando a RNN
+    Substituímos a RNNCell da prática 1 pela GRU para consolidar os conhecimentos teóricos previamente apresentados.
+
+- Deep RNN
+    Conhecemos a praticidade na construção de uma rede recorrente profunda através do parâmetro num_layers.
+
+- RNN Bidirecional
+    Conhecemos a praticidade na construção de uma rede recorrente bidirecional através do parâmetro bidirectional. Vimos também o impacto real dessa mudança na arquitetura, bem como seus benefícios em aplicações reais.
+
 ## Referências
 - [Redes Neurais Recorrentes:
 Deep Learning com Pytorch](https://www.alura.com.br/curso-online-rnn-redes-neurais-recorrentes-deep-learning-pytorch)
